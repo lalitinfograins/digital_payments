@@ -1,0 +1,133 @@
+.invoice_control_section {
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: "background" 0.3s, border-radius 0.3s, opacity 0.3s;
+    padding: 50px 0 100px 0;
+    overflow-y: hidden ;
+
+.invoice_control_title {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    color: #fff;
+    .invoice_control_heading {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+        margin-right: 1rem;
+        .invoice_control_span {
+            color: #00D7FF;
+        }
+        .invoice_control_span:hover {
+            color: #000000;
+        }
+    }
+    .invoice_control_text {
+        color: #e0dfdf;
+    }
+}
+} 
+
+.clients_section {
+    padding: 0 0 100px 0;
+    overflow-y: hidden ;
+
+    .clients_content {
+        position: relative;
+        text-align: center;
+        color: #fff;
+        .client_num {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+    }
+    .client_h5 {
+        color: #0dcaf0;
+    }
+}
+
+@media screen and (max-width:992px) {
+  
+    .invoice_control_section {
+        background-color: #000;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: "background" 0.3s, border-radius 0.3s, opacity 0.3s;
+        padding: 50px 0 80px 0;
+        overflow-y: hidden ;
+    
+    .invoice_control_title {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        .invoice_control_heading {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            margin-right: 1rem;
+            .invoice_control_span {
+                color: #00D7FF;
+            }
+        }
+    }
+    } 
+    
+    .clients_section {
+        padding: 0 0 100px 0;
+        overflow-y: hidden ;
+    
+        .clients_content {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+            .client_num {
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+        }
+    }
+    }
+
+    @media screen and (max-width:412px) {
+  
+        .invoice_control_section {
+        
+        .invoice_control_title {
+            text-align: center;
+            color: #fff;
+            .invoice_control_heading {
+                font-size: 1.5rem;
+                font-weight: 700;
+                margin-bottom: 2rem;
+                margin-right: 1rem;
+                .invoice_control_span {
+                    color: #00D7FF;
+                }
+            }
+        }
+        } 
+        
+        .clients_section {
+            padding: 0 0 80px 0;
+            overflow-y: hidden ;
+        
+            .clients_content {
+                position: relative;
+                text-align: center;
+                color: #fff;
+                margin-bottom: 30px;
+                .client_num {
+                    font-size: 1rem;
+                    font-weight: 700;
+                }
+            }
+        }
+        }

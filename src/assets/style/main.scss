@@ -1,0 +1,17 @@
+@import url("./component/common/header.scss");
+@import url("./component/landing/home.scss");
+@import url("./component/common/footer.scss");
+body {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button{
+    border: none;
+}

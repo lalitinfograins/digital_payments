@@ -1,0 +1,110 @@
+.counts_section {
+    color: #fff;
+    padding: 50px 0 100px 0;
+    overflow-y: hidden;
+    .counts_title {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        color: #fff;
+        .counts_heading {
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            .counts_span {
+                color: #00D7FF;
+            }
+            .counts_span:hover {
+                color: #000000;
+            }
+        }
+        .counts_text {
+            color: #e0dfdf;
+        }
+        .counts_clients {
+            position: relative;
+            text-align: center;
+            .counts_client_nums {
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+            .counts_client_num {
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+        }
+        .counts_client_h5 {
+            color: #0dcaf0;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+  
+    .counts_section {
+        color: #fff;
+        padding: 50px 0 50px 0;
+        overflow-y: hidden;
+        .counts_title {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 100%;
+            justify-content: center;
+            color: #fff;
+            .counts_heading {
+                font-size: 3.2rem;
+                font-weight: 700;
+                margin-bottom: 2.5rem;
+                
+            }
+            .counts_clients {
+                position: relative;
+                text-align: center;
+                margin-bottom: 20px;
+
+                .counts_client_nums {
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                }
+                .counts_client_num {
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                }
+            }
+            .counts_client_h5 {
+                color: #0dcaf0;
+            }
+        }
+    }
+    }
+
+    @media screen and (max-width:768px) {
+  
+        .counts_section {
+            padding: 50px 0 50px 0;
+            .counts_title {
+                text-align: center;
+                .counts_heading {
+                    font-size: 2.2rem;
+                    font-weight: 700;
+                    margin-bottom: 2.5rem;
+                    
+                }
+                .counts_clients {
+                    position: relative;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    .counts_client_nums {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                    }
+                    .counts_client_num {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        }
