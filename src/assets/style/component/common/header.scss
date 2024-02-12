@@ -1,0 +1,102 @@
+.navbar {
+    background: linear-gradient(90deg, #00080c 0%, #00252c 100%);
+    height: auto;
+    .logo_img {
+    margin-left: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.nav {
+  position: relative;
+  display: flex !important;
+.nav-item {
+  padding: 0 15px;
+  line-height: 2;
+}
+  .nav-link {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  .nav-link:hover {
+    color: #00D7FF;
+  }
+} 
+.nav-mobile {
+  display: none;
+}
+.toggle {
+  display: none;
+  transition: all 0.5s ease-in-out;
+ }
+}
+
+@media screen and (max-width:992px) {
+  .navbar {
+    background: linear-gradient(90deg, #00080c 0%, #00252c 100%);
+    height: auto;
+    .nav {
+      display: none !important;
+    }
+    .nav-mobile {
+      display: block;
+      position: absolute;
+      top: 80px;
+      color: #fff;
+      background-color: #04b0ce;
+      height:280px;
+      margin: 0;
+      text-align: center;
+      border-top: 1px solid #fff;
+      left: 0;
+      -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: color 1000ms;
+  transition: color 1000ms;
+
+      transition: all 0.5s ease-in-out;
+      
+      &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 0 50%;
+      transform-origin: 0 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition: 300ms ease-out;
+      transition: 300ms ease-out;
+    }
+    &:hover:before{
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+      .nav-item {
+        line-height: 3.5;
+      }
+        .nav-link {
+          color: #fff;
+          font-size: 18px;
+          padding: 0 20px;
+        }
+        .nav-link:hover {
+          color: #00D7FF;
+        }
+    }
+  .toggle {
+    display: block;
+    color: #ffffff;
+    font-size: 33px;
+    background: none;
+    z-index: 1;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+  }
+}
+}
