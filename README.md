@@ -7,9 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-
+https://lalitinfograins.github.io/digital_payments/
 Runs the app in the development mode.\
-Open [http://localhost:3000]([http://localhost:3000](https://lalitinfograins.github.io/digital_payments/)) to view it in your browser.
+Open [[http://localhost:3000](https://lalitinfograins.github.io/digital_payments/)]([http://localhost:3000](https://lalitinfograins.github.io/digital_payments/)) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
