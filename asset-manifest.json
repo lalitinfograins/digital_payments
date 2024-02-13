@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/digital_payments/static/css/main.cc2caae5.css",
+    "main.js": "/digital_payments/static/js/main.40bdc9ae.js",
+    "static/js/592.402ba91d.chunk.js": "/digital_payments/static/js/592.402ba91d.chunk.js",
+    "static/media/hero1.png": "/digital_payments/static/media/hero1.4da4938c7783247a3bc4.png",
+    "static/media/hero-bg.jpg": "/digital_payments/static/media/hero-bg.520ac06e8f7d2269c897.jpg",
+    "static/media/invoice-control.png": "/digital_payments/static/media/invoice-control.d29e0c3de5cf8e034bca.png",
+    "static/media/get-ready-1.png": "/digital_payments/static/media/get-ready-1.525c7abd1b390ca8c797.png",
+    "static/media/slider-4.png": "/digital_payments/static/media/slider-4.0988cfe1b806b5e19042.png",
+    "static/media/get-ready-card.png": "/digital_payments/static/media/get-ready-card.09878844c90b1a7f8576.png",
+    "static/media/map2.png": "/digital_payments/static/media/map2.ff1457af30e334539973.png",
+    "static/media/slider-2.png": "/digital_payments/static/media/slider-2.5277a59f62aa9b5079c4.png",
+    "static/media/slider-3.png": "/digital_payments/static/media/slider-3.34183fffb3bcc3b2f94f.png",
+    "static/media/slider-1.png": "/digital_payments/static/media/slider-1.c20ba495639ac05153af.png",
+    "static/media/card-3.png": "/digital_payments/static/media/card-3.7c951e140edadbfe0b1f.png",
+    "static/media/card-2.png": "/digital_payments/static/media/card-2.47e4b441cfcf499ad23c.png",
+    "static/media/card-1.png": "/digital_payments/static/media/card-1.4f8780cd0cd3e0dbdda4.png",
+    "static/media/box-1.png": "/digital_payments/static/media/box-1.8b64fd6dce68f3803ea6.png",
+    "static/media/slick.svg": "/digital_payments/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/digital_payments/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/digital_payments/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/digital_payments/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/digital_payments/index.html",
+    "main.cc2caae5.css.map": "/digital_payments/static/css/main.cc2caae5.css.map",
+    "main.40bdc9ae.js.map": "/digital_payments/static/js/main.40bdc9ae.js.map",
+    "592.402ba91d.chunk.js.map": "/digital_payments/static/js/592.402ba91d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc2caae5.css",
+    "static/js/main.40bdc9ae.js"
+  ]
+}
